@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "license": "(MIT AND Apache-2.0)",
   "scripts": {
-    "build": "cd contract && cargo build --target wasm32-unknown-unknown --release",
+    "build": "rm -rf dist && npx parcel build src/index.html && cd contract && cargo build --target wasm32-unknown-unknown --release",
     "postbuild": "cp contract/target/wasm32-unknown-unknown/release/rust_counter_tutorial.wasm ./out/main.wasm",
     "deploy:contract": "near deploy",
     "deploy:surge": "cd dist && surge --domain nearcounter.surge.sh",

@@ -70,7 +70,7 @@
     </div>
 </div>
 <div class="absolute w-full h-full flex flex-col gap-4 p-4 items-center justify-center z-10">
-    <Panel class="w-60 mb-16 mt-auto">
+    <Panel class="mb-16 mt-auto w-60">
         {#if connected}
         <div class={"bg-indigo-300/50 text-indigo-900 h-12 justify-center items-center flex px-3 py-1.5 rounded-xl w-full" + (counter != 0 && (counter > 0 ? " bg-green-300/50 text-green-700/80 " : " bg-red-300/50 text-red-700/80 "))}>
             {#if loading}
@@ -98,6 +98,6 @@
         {/if}
     </Panel>
     <div class=" mt-auto font-bold text-indigo-300/90">
-        Made for NEAR x Encode Hackathon february 2022
+        Made for NEAR x Encode Hackathon February 2022
     </div>
 </div>
