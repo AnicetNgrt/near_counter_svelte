@@ -1,10 +1,4 @@
 Counter example in Rust
-=================================
-
-[![Open in Gitpod!](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/near-examples/rust-counter)
-
-<!-- MAGIC COMMENT: DO NOT DELETE! Everything above this line is hidden on NEAR Examples page -->
-
 ## Description
 
 This contract implements simple counter backed by storage on blockchain.
