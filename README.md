@@ -1,4 +1,3 @@
-Counter example in Rust
 ## Description
 
 This contract implements simple counter backed by storage on blockchain.
