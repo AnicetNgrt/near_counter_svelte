@@ -8,7 +8,6 @@ module.exports = {
         extend: {
             fontFamily: {
                 'sans': ['Cabinet Grotesk', 'sans-serif'],
-                'serif': ['Stardom', 'serif'],
                 'mono': ['RX100', 'monospace']
             },
         },
